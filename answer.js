@@ -12,7 +12,6 @@
   const addButton = document.getElementById('add-button');
   const listContainer = document.getElementById('todo-list');
 
-
   // `pickupTodoFromTextBox関数` を実装する
   // - 実現したい機能
   //   - `input[type="text"]`から文字列を取得する
