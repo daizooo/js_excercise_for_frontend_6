@@ -40,7 +40,7 @@
     const duplicatedTodo = todos.filter(_todo => {
       return todo === _todo;
     });
-    if (duplicatedTodo > 0) {
+    if (duplicatedTodo.length > 0) {
       throw new Error('同じ名前のタスクは既に作成されています');
     }
     return todo;
